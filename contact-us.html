@@ -1,0 +1,80 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Contact Us</title>
+  </head>
+  <body>
+    <div class="body-wrapper">
+      <header class="header">
+        <nav class="container">
+          <div class="nav-right">
+            <a href="/">
+              <img src="./assets/images/logo.svg" alt="Logo RainyDays" />
+            </a>
+          </div>
+          <div class="nav-left">
+            <ul class="menu-items" rainydays-html="navbar.html"></ul>
+            <button class="toggle-menu">
+              <img
+                src="./assets/images/menu-alt-05-svgrepo-com.svg"
+                alt="menu-alt-05-svgrepo-com"
+                width="45"
+                height="45"
+              />
+            </button>
+          </div>
+        </nav>
+      </header>
+      <div class="container">
+        <div class="wrapper-contact">
+          <div class="category-banner">
+            <img
+              src="./assets/images/contact-us.jpeg"
+              alt="Contact us"
+              srcset=""
+            />
+          </div>
+          <form class="form-group">
+            <div class="form-control">
+              <label for="name"
+                ><span>Name</span>
+                <input type="text" id="name" />
+              </label>
+            </div>
+            <div class="form-control">
+              <label for="email"
+                ><span>Email</span>
+                <input type="email" id="email" />
+              </label>
+            </div>
+            <div class="form-control">
+              <label for="subject"
+                ><span>Subject</span>
+                <input type="text" id="subject" />
+              </label>
+            </div>
+            <div class="form-control">
+              <label for="message"
+                ><span>Message</span>
+                <textarea id="textarea" rows="8"></textarea>
+              </label>
+            </div>
+            <div class="form-control">
+              <input class="contact-btn" type="submit" value="Submit message" />
+            </div>
+          </form>
+        </div>
+      </div>
+      <footer rainydays-html="footer.html"></footer>
+    </div>
+    <script src="./assets/js/app.js"></script>
+  </body>
+</html>
