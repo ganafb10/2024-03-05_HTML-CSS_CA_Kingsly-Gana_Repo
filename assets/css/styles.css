@@ -159,6 +159,9 @@ footer .container .nav-links {
   color: var(--white);
   text-decoration: none;
 }
+a{
+  text-decoration: none;
+}
 footer .container .copyright {
   text-align: center;
 }
